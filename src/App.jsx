@@ -1,6 +1,6 @@
 import ChatPanel from './components/ChatPanel'
 import EnzioMark from './components/EnzioMark'
-import EnzioPortrait from './assets/enzio-portrait.svg'
+import EnzioPortrait from './assets/assassin.png'
 
 const fieldNotes = [
   ['Impersonation', 'Borrowed names, copied faces, fake profiles, and messages written to sound familiar.'],
