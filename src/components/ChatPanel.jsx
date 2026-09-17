@@ -114,9 +114,13 @@ export default function ChatPanel() {
       setSent(true)
       pushMessage('enzio', 'It’s on its way. You did the hard part by telling the story.')
     } catch (sendError) {
-      setError(sendError instanceof Error ? sendError.message : 'The report could not be sent. Please try again.')
-    } finally {
-      setSending(false)
+        console.error('EmailJS error:', sendError)
+
+        setError(
+          sendError?.text ||
+          sendError?.message ||
+          `EmailJS error: ${sendError?.status ?? 'unknown'}`
+  )
     }
   }
 
