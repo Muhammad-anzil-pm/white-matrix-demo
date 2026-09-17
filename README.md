@@ -65,8 +65,4 @@ public/
 
 The conversation logic is deliberately local so the portal works without an AI API. A model-backed service can be added later behind the same conversation boundary if needed.
 
-## Deployment
 
-The app is a static Vite site. Vercel, Netlify, or another Vite-compatible host can serve the build.
-
-For a deployment, add the four `VITE_EMAILJS_*` variables in the host's environment settings before building.
