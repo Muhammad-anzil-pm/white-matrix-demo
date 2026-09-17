@@ -34,12 +34,7 @@ export default function App() {
           <div className="hero__intro">
             <SectionLabel>AI fraud investigator</SectionLabel>
             <h1 id="hero-title">When a machine lies, Enzio listens.</h1>
-            <p className="hero__dek">Something happened, and now you're not sure what to believe.
-Maybe the voice sounded familiar. Maybe the profile looked real. Maybe the message felt just a little too convincing.
-Don't worry about having all the answers.
-Tell Enzio what happened, exactly as you remember it.
-He'll help you figure out what doesn't add up.</p>
-
+           
             <div className="hero__visual" aria-hidden="true">
               <img src={EnzioPortrait} alt="" />
               <div className="hero__visual-note">
