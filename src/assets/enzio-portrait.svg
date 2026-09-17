@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 760" role="img" aria-labelledby="title desc">
+  <title id="title">Enzio, an original AI-fraud investigator</title>
+  <desc id="desc">A monochrome editorial portrait of a masked investigator carrying a notebook and wearing a long coat.</desc>
+  <rect width="680" height="760" fill="#F2F5F7"/>
+  <path d="M88 700h504" stroke="#CAD3D9" stroke-width="2"/>
+  <path d="M122 680 156 252l78-54h176l82 54 38 428Z" fill="#000"/>
+  <path d="M206 214 267 116h150l64 98-42 132H247Z" fill="#182128"/>
+  <path d="M255 140h174l48 79-33 91H236l-31-91Z" fill="#000" stroke="#fff" stroke-width="2"/>
+  <path d="M286 210h113" stroke="#2E65FF" stroke-width="10"/>
+  <path d="M314 246h59" stroke="#fff" stroke-width="7"/>
+  <path d="M265 310 199 534h85l28-115 25 115h85l-66-224Z" fill="#F2F5F7"/>
+  <path d="M272 336 220 532h52l36-108 22 108h62l-61-196Z" fill="#000"/>
+  <path d="M430 348 544 230l57 55-118 176Z" fill="#182128"/>
+  <path d="M512 475h70v24h-70z" fill="#D95D39"/>
+  <path d="M120 646h442" stroke="#182128" stroke-width="3"/>
+  <path d="M170 623h86M420 623h86" stroke="#CAD3D9" stroke-width="2"/>
+  <circle cx="105" cy="645" r="14" fill="#2E65FF"/>
+  <circle cx="574" cy="645" r="14" fill="#D95D39"/>
+</svg>

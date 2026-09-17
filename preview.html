@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enzio preview</title>
+    <style>
+      :root { color-scheme: light; font-family: Arial, sans-serif; }
+      body { margin: 0; background: #F2F5F7; color: #182128; }
+      .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 24px 0 80px; }
+      .nav { display: flex; justify-content: space-between; border-bottom: 1px solid #CAD3D9; padding: 0 0 18px; font-weight: 700; }
+      .grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: center; padding: 70px 0; }
+      h1 { font-family: Georgia, serif; font-size: clamp(54px, 8vw, 108px); line-height: .86; max-width: 7ch; margin: 16px 0; }
+      .label { display: inline-block; border-bottom: 2px solid #D95D39; padding-bottom: 6px; font-weight: 700; }
+      .lead { max-width: 50ch; font-size: 20px; line-height: 1.45; }
+      .portrait { width: min(100%, 430px); margin-top: 28px; }
+      .chat { background: #000; color: #fff; min-height: 560px; padding: 28px; box-shadow: 14px 14px 0 #D95D39; }
+      .chat h2 { margin: 0 0 28px; font-size: 34px; }
+      .bubble { max-width: 78%; margin: 24px 0; line-height: 1.5; }
+      .bubble.you { margin-left: auto; text-align: right; color: #D7DEE3; }
+      .input { margin-top: 120px; display: flex; gap: 8px; }
+      .input div { flex: 1; border: 1px solid #363636; padding: 14px; color: #717D84; }
+      .input button { border: 0; padding: 14px 18px; background: #2E65FF; color: #fff; font-weight: 700; }
+      @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="nav"><span>Enzio / case desk</span><span>How he helps</span></div>
+      <section class="grid">
+        <div>
+          <span class="label">AI fraud investigator</span>
+          <h1>When a machine lies, Enzio listens.</h1>
+          <p class="lead">A fictional superhero for people who have been tricked by cloned voices, fake profiles, deepfakes, AI-written messages, or stories that do not add up.</p>
+          <img class="portrait" src="./src/assets/enzio-portrait.svg" alt="Enzio portrait preview" />
+        </div>
+        <div class="chat">
+          <div style="color:#8F9AA3; font-size:13px;">Open channel</div>
+          <h2>Talk to Enzio</h2>
+          <div class="bubble">Hey. I'm Enzio. I look into scams that hide behind convincing technology. What's your name?</div>
+          <div class="bubble you">My name is Arjun.</div>
+          <div class="bubble">Good to meet you, Arjun. I'll ask a few quick things, then you can give me the whole story.</div>
+          <div class="input"><div>Type your answer</div><button>Send</button></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
